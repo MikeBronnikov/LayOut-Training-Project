@@ -1,0 +1,129 @@
+$title-color: #2F281E;
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Poppins, sans-serif ;
+    font-weight: 500;
+    color: #544837;
+    font-size: 16px;
+    line-height: 26px;
+}
+.title{
+color: #2F281E;
+}
+.button{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    background: #FF9900;
+    border: none;
+    border-radius: 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.container{
+    max-width: 1224px;
+    height: 78px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 78px;
+    .menu{
+        margin-left: auto;
+    }
+    .menu__list{
+        display: flex;
+        list-style: none;
+        &-item:not(:first-child){
+            margin-left: 25px;
+        }
+        &-link{
+            color: #2F281E;
+            font-size: 14px;
+            font-family: Poppins, sans-serif ;
+            font-weight: 400;
+            line-height: 28px;
+            text-decoration: none;
+            
+        }
+    }
+    .user-nav{
+        margin-left: 53px;
+        margin-right: 14px;
+        &__link:not(:first-child){
+            margin-left: 14px;
+            color: #FFFFFF;
+            border-color: transparent;
+            background: #FF9900;
+            
+        }
+        &__link{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #173A56;
+        border: 1px solid #BCD0E5;
+        box-sizing: border-box;
+        border-radius: 4px;
+        padding: 11px 22px 11px 25px;
+        text-decoration: none;
+        }
+
+    }
+}
+.top{
+
+    
+    &__inner{
+        background-image: url(../img/top-pg.svg);
+        background-repeat: no-repeat;
+        padding: 133px 0px 80px;
+        background-position: bottom right;
+    }
+    &__title{
+        font-weight: bold;
+        font-size: 44px;
+        line-height: 54px;
+        margin-bottom: 30px;
+        max-width: 518px;
+    }
+    &__text{
+        max-width: 458px;
+        height: 95px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 45px;
+    }
+    &__btn{
+        display: inline-block;
+        padding: 15px 41px 14px 41px;
+        margin-right: 30px;
+
+    }
+    &__link{
+        display: inline-block;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FF9900;
+        position: relative;
+        padding-left: 25px;
+    }
+    &__link::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        width: 17px;
+        height: 19px;
+        background-image: url(../img/play-icon.svg);
+    }
+
+}
