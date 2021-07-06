@@ -1,2 +1,2 @@
-# Here the link to this website https://mikebronnikov.github.io/MarkUp-Training-Project/
+# Here the <a href='https://mikebronnikov.github.io/LayOut-Training-Project/'>  link </a> to this website 
 # MarkUp-Training-Project
